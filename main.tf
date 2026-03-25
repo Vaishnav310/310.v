@@ -10,7 +10,7 @@ terraform {
 provider "fortios" {
   hostname = "192.168.10.9"
   username = "admin"
-  password = "password
+  password = "password"
   insecure = true
   vdom     = "root"
 }
