@@ -8,9 +8,9 @@ terraform {
 }
 
 provider "fortios" {
-  hostname = "192.168.30.1"
+  hostname = "[IP_ADDRESS]"
   username = "terraform-user"
-  password = "1ss6d5QszjdNq8QGhyhm5rr5n8tGbk"
+  password = "[PASSWORD]"
   insecure = true
   vdom     = "root"
 }
