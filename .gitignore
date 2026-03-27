@@ -1,0 +1,66 @@
+# 🔒 Terraform sensitive files
+
+*.tfstate
+*.tfstate.*
+crash.log
+
+# 🔐 Terraform variable files (often contain secrets)
+
+*.tfvars
+*.tfvars.json
+
+# 🧾 Override files
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# 📦 Terraform working directory
+
+.terraform/
+
+# 🔌 Terraform lock file (optional: keep or ignore)
+
+# Comment this OUT if you want reproducible provider versions
+
+.terraform.lock.hcl
+
+# 🧪 CLI configuration files
+
+terraform.rc
+.terraformrc
+
+# 🧠 Plan output files
+
+*.tfplan
+
+# 🌍 Environment files
+
+.env
+.env.*
+
+# 🗂️ Mac / Linux / Windows junk
+
+.DS_Store
+Thumbs.db
+
+# 🧰 IDE/editor folders
+
+.vscode/
+.idea/
+
+# 🧪 Logs
+
+*.log
+
+# 🔑 SSH / sensitive keys (just in case)
+
+*.pem
+*.key
+
+# 🐍 Python virtual env (if using scripts with Terraform)
+
+venv/
+**pycache**/
+*.pyc

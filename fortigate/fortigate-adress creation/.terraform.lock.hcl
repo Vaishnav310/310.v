@@ -5,7 +5,7 @@ provider "registry.terraform.io/fortinetdev/fortios" {
   version     = "1.24.1"
   constraints = "1.24.1"
   hashes = [
-    "h1:e+IkMDU0ZtZ08UvS5BuMEck4jjYITxZW47cSgccW3zQ=",
+    "h1:OTlXnuQ1HFRuLf3gUed6eVWfk5wWGJAaL8DmU/rHyNw=",
     "zh:01f3e5c2d79acb6ef0a2741109e5920cf6bc832f145ab64c5e28711bef8f07cc",
     "zh:1865ea2b4674340870184290341583cc6d1de77a397039b895062ffb33dd777a",
     "zh:1f71114bbd0bb5e51678a20f72dd52b2e705dec331c638bc3ea2daa0f5b2c2b0",
